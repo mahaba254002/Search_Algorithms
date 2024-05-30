@@ -20,6 +20,7 @@
 ## Linear Search
 - It is the simplest searching algorithm
 - It involve finding the target by sequentially checking each element in the given set of data until a match is found or entire collection is traversed.
+- Has linear time complexity *O(n)* since the time taken is directly proportional to the size of the input array 
 
     ### How it Works:
     - Every element is considered as a potential match for the key and checked for the same.
@@ -56,6 +57,7 @@
 - It is an efficient algorithm for finding an item from a *sorted list* of items.
 -  It follows the principle of divide and conquer, reducing the search space by half with each comparison.
 - It is significantly faster than Linear Search for *large dataset* because it eliminates half of the remaining elements in each step
+- Has logarithmic time complexity *O(logn)* due to halving of the search interva
     
     ### How it Works
     - It works by repeatedly dividing in half the portion of the list that could contain the item, until you've narrowed down the possible locations to just one.

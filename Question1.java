@@ -35,7 +35,7 @@ public class Question1 {
 
     public static void main(String[] args) {
         Question1 q1 = new Question1();
-        int[] array = { 1, 2, 3, 4, 2, 5, };
+        int[] array = {1, 2, 3, 2, 4, 2, 5};
         int target = 2;
         int[] indices = q1.findAll(array, target);
 
