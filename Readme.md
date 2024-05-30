@@ -34,7 +34,7 @@
     5. Repeat: Steps 2-4 are repeated until either a match is found or the end of the collection is reached.
 
     ### Diagramatic Representation
-    - Binary Search where target is 3
+    - Linear Search where target is 3
     !["Linear Search Diagram"](linearSearch.png "Linear Search")
 
     ### Linear Search Algorithm Implementation
